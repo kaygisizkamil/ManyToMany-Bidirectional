@@ -10,6 +10,7 @@ import java.util.Set;
 public class ProductDto {
     private Long id;
     private String name;
+    @JsonIgnore
     private Set<ProducerDto> producerDtos;
  //   private ProducerDto producerDto;
 }
