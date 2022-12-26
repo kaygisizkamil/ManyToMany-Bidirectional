@@ -10,5 +10,6 @@ public class ProducerDto {
     private Long id;
 
     private String name;
+    @JsonIgnore
     private Set<Product> products;
 }
